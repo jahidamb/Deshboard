@@ -1,0 +1,22 @@
+@media all and (max-width:991px){
+	.content-wrapper{
+        margin-left: 230px !important;
+    } 
+    .sidebar{
+        width: 230px !important;
+    }
+}
+@media all and (max-width:767px){
+    .content-wrapper{
+        margin: 0px !important;
+        width: 100%;
+    }
+    .sidebar{
+        position: static !important;
+        width: 100%;
+    }
+    .single-option{
+        margin-bottom: 20px !important;
+    }
+}
+
